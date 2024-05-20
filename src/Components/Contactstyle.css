@@ -1,0 +1,168 @@
+.Contact_container{
+    width: 100%;
+    height: 100vh;
+    overflow-x:hidden;
+     position:relative
+}
+
+.logo_container{
+    width:5%;
+    height:50%; 
+    position:absolute;
+     right:7%; 
+     bottom:15%;
+}
+
+#Touch_text{
+   text-align:center; margin-top:15px ; margin-bottom:40px;
+   font-size: 18px;
+   color: rgb(123, 132, 127);
+}
+
+.Contact_form{
+    display:flex;
+     flex-direction:column;
+      justify-content:center;
+       align-items:center;
+       width:30%;
+       color:rgb(255, 255, 255);
+         height:30%;
+          position:absolute;
+           top:34%; 
+           left:37%;
+            z-index:3;
+            
+}
+
+.green_comp{
+    width:30%; position:absolute;
+     left:0; top:10%; z-index:1
+}
+
+#Hello{
+    background-color: #13B690;
+     width:30% ;
+
+}
+
+
+
+.green{
+    width:100%; height:90vh;
+}
+
+.whitecomp2{
+    width:13%; position:absolute; right:0; top:10%; z-index: 2;
+}
+
+.emailadd{
+    z-index: 4;
+    color: rgb(14, 14, 14);
+    width: 16%;
+    font-weight: 400;
+    text-align: center;
+    rotate: 57deg;
+    position: absolute;
+    top: 43%;
+    left: 10%;
+}
+
+
+.Ending_element{
+    color: rgb(123, 132, 127);
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom:4%;
+left: 40%;    
+}
+
+
+@media (max-width: 600px){
+    .Contact_container{
+        overflow-x: hidden;
+        height: 72vh;
+        margin-top: 50px;
+    }
+
+    .Ending_element{
+        width: 50%;
+        font-size: 8px;
+        left: 29%;
+        bottom: 3%;
+    }
+
+    #Touch_text{
+        text-align:center; margin-top:15px ; margin-bottom:40px;
+        font-size: 10px;
+        color: rgb(123, 132, 127);
+     }
+
+    #Hello{
+        background-color: #13B690;
+         width:auto ;
+    }
+    
+    .whitecomp2{
+        width:28%; height: auto; position:absolute; right:0; top:0%; z-index: 2;
+    }
+
+    .green{
+        width:100%; height:72vh
+    }
+
+    .green_comp{
+        position:relative;
+        top: 0;
+        left: 0;
+    }
+    .emailadd{
+
+        width: 10%;
+        font-size: 9px;
+        rotate: 80deg;
+        position: absolute;
+        top: 20%;
+        left: 6%;
+    }
+    
+
+    #linkedin{
+        font-size: 1.2em;
+    }
+
+    #github{
+        font-size: 1.2em;
+    }
+
+    #mail{
+        font-size: 0.8rem;
+    }
+
+    .Contact_form{
+        width:54%;
+        height:40%;
+        position: absolute;
+        top: 24%;
+        left: 27%;
+        font-size: 10px;
+    }
+
+    .Con_head{
+        color:rgb(228, 228, 228);
+    font-size: 22px;
+    font-weight: 300;
+    }
+
+    .logo_container{
+        width:5%;
+        height:30%; 
+        position:absolute;
+         right:7%; 
+         bottom:15%;
+         
+    }
+}
+

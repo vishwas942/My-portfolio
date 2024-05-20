@@ -1,0 +1,65 @@
+#about_text{
+    color: rgb(186, 185, 185);
+    font-size: 14px;
+}
+.aboutme{
+    color:rgb(197, 197, 197);
+}
+#heading_container{
+    width: 50%;
+    position:absolute; top:15%; left:8%
+}
+
+.pfp{
+    width:31%; position:absolute; right:11%; top:24%;
+}
+
+#aboutpoints{
+    font-size:14px; width:87%; margin-left:7%; margin-top:35px
+}
+
+.aboutText{
+    width:40%;
+    height:60%; 
+    position:absolute;
+     top:30%;
+      left:15%; 
+      z-index:3;
+}
+
+@media (max-width: 600px){
+    #about_text{
+        font-size: 7px;
+    }
+    .aboutme{
+        font-size: 20px
+    }
+    
+    #aboutpoints{
+        font-size: 7px;
+        margin-top: 11px;
+        width: 90%;
+        margin-left:3%
+    }
+
+#heading_container{
+    width: 80%;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+.pfp{
+    top: 20%;
+    left: 10%;
+    width: 70%; 
+    margin: auto;
+}
+.aboutText{
+    width:77%;  
+    position:absolute;
+     top:58%;
+      left:15%; 
+      height: 40%;
+     
+}
+}
